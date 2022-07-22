@@ -55,15 +55,15 @@ function shownotes() {
                 <div class="card-body">
                 <div class="d-flex justify-content-between">
                   <h5 class="card-title" id="heading">${element.heading}</h5>
-                  <button onclick="impnode(${index})" class="btn btn-primary star" style="background-color:white ; border:none ;height:2em">  <img src="/static/imp.png" alt="edit" style="
+                  <button onclick="impnode(${index})" class="btn btn-primary star" style="background-color:white ; border:none ;height:2em">  <img src="static/imp.png" alt="edit" style="
                   width: 1.2em;margin-bottom:2em; background-color:grey;"></button>
                   </div>
                   <p class="card-text" id="main"style="color:">${element.main}</p>
                   <div class="d-flex justify-content-between">
-                  <button id="${index}"onclick="deletenode(this.id)" class="btn btn-primary" style="background-color:white; border:none">  <img src="/static/icondelt.png" alt="delete" style="
+                  <button id="${index}"onclick="deletenode(this.id)" class="btn btn-primary" style="background-color:white; border:none">  <img src="static/icondelt.png" alt="delete" style="
                    width: 2em; "></button>
         
-                   <button id="${index}"onclick="editnode(this.id)" class="btn btn-primary" style="background-color:white; border:none">  <img src="/static/edit.png" alt="edit" style="
+                   <button id="${index}"onclick="editnode(this.id)" class="btn btn-primary" style="background-color:white; border:none">  <img src="static/edit.png" alt="edit" style="
                    width: 2em; "></button>
         
                    
@@ -79,15 +79,15 @@ function shownotes() {
             <div class="card-body">
             <div class="d-flex justify-content-between">
               <h5 class="card-title" id="heading">${element.heading}</h5>
-              <button onclick="impnode(${index})" class="btn btn-primary star" style="background-color:white ; border:none ;height:2em">  <img src="/static/star.png" alt="edit" style="
+              <button onclick="impnode(${index})" class="btn btn-primary star" style="background-color:white ; border:none ;height:2em">  <img src="static/star.png" alt="edit" style="
               width: 1.2em;margin-bottom:2em; background-color:grey;"></button>
               </div>
               <p class="card-text" id="main"style="color:">${element.main}</p>
               <div class="d-flex justify-content-between">
-              <button id="${index}"onclick="deletenode(this.id)" class="btn btn-primary" style="background-color:white; border:none">  <img src="/static/icondelt.png" alt="delete" style="
+              <button id="${index}"onclick="deletenode(this.id)" class="btn btn-primary" style="background-color:white; border:none">  <img src="static/icondelt.png" alt="delete" style="
                width: 2em; "></button>
     
-               <button id="${index}"onclick="editnode(this.id)" class="btn btn-primary" style="background-color:white; border:none">  <img src="/static/edit.png" alt="edit" style="
+               <button id="${index}"onclick="editnode(this.id)" class="btn btn-primary" style="background-color:white; border:none">  <img src="static/edit.png" alt="edit" style="
                width: 2em; "></button>
     
                
@@ -196,10 +196,10 @@ function editnode(val) {
               <div class="mb-3 my-3">
                 <textarea class="form-control" id="newaddtxt"  rows="3">${element.main}</textarea>
                 <div class="d-flex justify-content-between">
-                <button onclick="right(${index},${i})" class="btn btn-primary" style="background-color:white; border:none">  <img src="/static/right.png" alt="delete" style="
+                <button onclick="right(${index},${i})" class="btn btn-primary" style="background-color:white; border:none">  <img src="static/right.png" alt="delete" style="
                  width: 2em; "></button>
       
-                 <button onclick="notedit()" class="btn btn-primary" style="background-color:white; border:none">  <img src="/static/close.png" alt="edit" style="
+                 <button onclick="notedit()" class="btn btn-primary" style="background-color:white; border:none">  <img src="static/close.png" alt="edit" style="
                  width: 2em; "></button>
                  </div>
           </div>
@@ -334,7 +334,7 @@ function showImpNotes() {
         <div class="card-body">
         <div class="d-flex justify-content-between">
           <h5 class="card-title">${element.heading}</h5>
-          <button id="${index}"onclick="Remove(this.id)" class="btn btn-primary" style="background-color:white ; border:none ;height:2em">  <img src="/static/imp.png" alt="edit" style="
+          <button id="${index}"onclick="Remove(this.id)" class="btn btn-primary" style="background-color:white ; border:none ;height:2em">  <img src="static/imp.png" alt="edit" style="
           width: 1.2em;margin-bottom:2em; background-color:grey;"></button>
           </div>
           <p class="card-text" style="color:">${element.main}</p>
