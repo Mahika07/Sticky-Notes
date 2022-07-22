@@ -38,7 +38,7 @@ function shownotes() {
     
     let impnotes = localStorage.getItem("impnotes");
     if (impnotes == null) {
-        impnotes = [];
+        notesobjimp = [];
     }
     else {
         notesobjimp = JSON.parse(impnotes);
@@ -128,7 +128,7 @@ function deletenode(index) {
 
     let impnotes = localStorage.getItem("impnotes");
     if (impnotes == null) {
-        impnotes = [];
+        notesobj = [];
     }
     else {
         notesobj = JSON.parse(impnotes);
@@ -260,7 +260,7 @@ function impnode(index) {
 
     let impnotes = localStorage.getItem("impnotes");
     if (impnotes == null) {
-        impnotes = [];
+        notesobj = [];
     }
     else {
         notesobj = JSON.parse(impnotes);
@@ -294,7 +294,7 @@ function impnode(index) {
     
         let impnotes = localStorage.getItem("impnotes");
         if (impnotes == null) {
-            impnotes = [];
+            notesobj = [];
         }
         else {
             notesobj = JSON.parse(impnotes);
