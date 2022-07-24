@@ -9,11 +9,52 @@
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="icon" type="image/x-icon" href="static/favicon.png">
 
+  <style>
+    .my-nav {
+      background-color: yellow;
+    }
+    @media only screen and (max-width: 550px) {
+    .my-nav {
+    width: 550px;
+  }
+}
+
+  </style>
+
 </head>
 
 <body onload="showImpNotes()">
   <!--nav bar-->
-  <nav class="navbar" style="background-color: yellow;">
+  <nav class="navbar my-nav" >
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#">
+        <img src="static/image.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        Sticky Notes
+      </a>
+
+         <ul class="navbar-nav mr-auto">
+          <li class="nav-item" style="margin-left: 2em;">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav me-auto mb-2 mx-5 mb-lg-0">
+          <!-- <li class="nav-item"  style="margin-right: 35em;"> -->
+          <li class="nav-item">
+            <a class="nav-link active" id="imp" aria-current="page" href="imp.html">Important</a>
+          </li>
+        </ul>
+         <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchtxt">
+          <button class="btn btn-outline-success" style="color: white; background-color: black;"
+            type="submit">Search</button>
+        </form> 
+</div>
+</nav>
+
+
+
+  <!-- <nav class="navbar" style="background-color: yellow;">
     <div class="container-fluid">
 
       <a class="navbar-brand" href="#">
@@ -40,7 +81,7 @@
       </form>
    
 </div>
-  </nav>
+  </nav> -->
   <!--heading-->
   <div class="container my-3">
     <h1 style="color: red; text-align: center;">Important Notes</h1>
